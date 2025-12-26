@@ -1,0 +1,26 @@
+# YOLO 数据集配置文件 - CubiCasa5K Floorplan
+
+# 数据集路径
+path: E:\JOB\attention\svg  # 数据集根目录
+
+# 训练/验证/测试集路径
+train: cubicasa_yolo/train/images
+val: cubicasa_yolo/val/images
+test: cubicasa_yolo/test/images
+
+# 类别数量
+nc: 11
+
+# 类别名称（必须与 YOLO ID 顺序对应）
+names:
+  0: LivingRoom
+  1: Bedroom
+  2: Kitchen
+  3: Bath
+  4: Entry
+  5: Storage
+  6: Garage
+  7: Outdoor
+  8: Room
+  9: Wall
+  10: Railing
