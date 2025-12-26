@@ -1,0 +1,11 @@
+flask==2.3.2
+flask-cors==4.0.0
+ultralytics==8.0.100
+torch==2.0.1
+opencv-python==4.8.0.74
+numpy==1.24.3
+shapely==2.0.1
+trimesh==3.22.0
+mapbox-earcut==0.12.0
+Pillow==10.0.0
+requests==2.31.0
